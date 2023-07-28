@@ -12,8 +12,8 @@ upload_image = st.sidebar.file_uploader("Upload an image here:")
 threshold = st.sidebar.slider("Confidence Threshold:", min_value=0.0, max_value=1.0, value=0.5, step=0.1)
 model = st.sidebar.selectbox('Model',['model 1', 'model 2'])
 
-model_path = '/backup/yolov4-obj_best.weights'
-LABELS_FILE='/yolov4/obj-2.names'
+model_path = 'backup/yolov4-obj_best.weights'
+LABELS_FILE='yolov4/obj-2.names'
 
 if model == 'model 1':
     model_path = 'backup/yolov4-obj-rate-0001_best.weights'
