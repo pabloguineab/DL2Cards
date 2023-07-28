@@ -16,8 +16,8 @@ model_path = '/backup/yolov4-obj_best.weights'
 LABELS_FILE='/yolov4/obj-2.names'
 
 if model == 'model 1':
-    model_path = '/backup/yolov4-obj-rate-0001_best.weights'
-    LABELS_FILE='/yolov4/obj.names'
+    model_path = 'backup/yolov4-obj-rate-0001_best.weights'
+    LABELS_FILE='yolov4/obj.names'
 
 if upload_image is not None:
     # OUTPUT_FILE='predicted.jpg'
